@@ -19,12 +19,16 @@
     "react-validation": "^2.10.9",
     "validator": "^6.2.1"
   },
+  "engines": {
+    "node": "7.4.0"
+  },
   "proxy": "http://localhost:3001",
   "scripts": {
     "knex": "knex",
     "start": "react-scripts start  & nodemon server/bin/www",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-prod": "env PORT=3000 nodemon server/bin/www"
   }
 }

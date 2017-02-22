@@ -1,0 +1,35 @@
+.levelmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.level1head {
+  font-family: 'Barrio';
+  font-size: 40px;
+}
+
+.board {
+  width: 640px;
+  height: 640px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.score {
+  background-color: lightgrey;
+  border: solid black 1px;
+  border-radius: 5px;
+  width: 600px;
+  display: flex;
+}
+
+.scoreitem {
+  width: 50%;
+}

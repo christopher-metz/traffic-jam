@@ -1,0 +1,40 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homehead {
+  font-family: 'Barrio';
+  font-size: 40px;
+}
+
+.levels {
+  height: 60vh;
+  width: 60vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.level {
+  height: 33%;
+  width: 30%;
+  margin: 0 1% 0 0;
+  font-size: 30px;
+  font-family: 'Barrio';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
+}
+
+.instructionshead {
+  font-family: 'Barrio';
+}
+
+.instructions {
+  width: 600px;
+}

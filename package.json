@@ -7,12 +7,22 @@
   },
   "dependencies": {
     "axios": "^0.15.3",
+    "body-parser": "^1.16.1",
+    "classnames": "^2.2.5",
+    "express": "^4.14.1",
+    "knex": "^0.12.7",
+    "morgan": "^1.8.1",
+    "pg": "^6.1.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router": "^3.0.2"
+    "react-router": "^3.0.2",
+    "react-validation": "^2.10.9",
+    "validator": "^6.2.1"
   },
+  "proxy": "http://localhost:3001",
   "scripts": {
-    "start": "react-scripts start",
+    "knex": "knex",
+    "start": "react-scripts start  & nodemon server/bin/www",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

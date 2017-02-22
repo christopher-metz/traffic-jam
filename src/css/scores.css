@@ -1,0 +1,41 @@
+.scoresmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.scoreshead {
+  font-family: 'Barrio';
+  font-size: 40px;
+}
+
+.scoresboard {
+  width: 600px;
+  height: 600px;
+  background-color: lightgrey;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.cancel {
+  display: block;
+  text-align: right;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-family: 'Barrio';
+  font-size: 20px;
+}
+
+.scoresgroup {
+  width: 100%;
+  display: flex;
+}
+
+.scoresitem {
+  width: 50%;
+  font-family: 'Barrio';
+  font-size: 30px;
+  margin: 0;
+}
